@@ -273,17 +273,10 @@
         <servlet-class>Controller.BorrarEsquemas</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>Columna</servlet-name>
-        <servlet-class>Controller.Columna</servlet-class>
+        <servlet-name>Columnas</servlet-name>
+        <servlet-class>Controller.Columnas</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>VerTablas</servlet-name>
-        <servlet-class>Controller.VerTablas</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>Irtablas</servlet-name>
-        <servlet-class>Controller.Irtablas</servlet-class>
-    </servlet>
+    
     <servlet>
         <servlet-name>EditarTablas</servlet-name>
         <servlet-class>Controller.EditarTablas</servlet-class>
@@ -292,10 +285,7 @@
         <servlet-name>BorrarTablas</servlet-name>
         <servlet-class>Controller.BorrarTablas</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>Columnas</servlet-name>
-        <servlet-class>Controller.Columnas</servlet-class>
-    </servlet>
+   
     <servlet>
         <servlet-name>EditarColumnas</servlet-name>
         <servlet-class>Controller.EditarColumnas</servlet-class>
@@ -320,11 +310,7 @@
         <servlet-name>Punto4</servlet-name>
         <servlet-class>Controller.Punto4</servlet-class>
     </servlet>
-    <servlet-mapping>
-        
-        <servlet-name>ClienteController</servlet-name>
-        <url-pattern>/ClienteController</url-pattern>
-    </servlet-mapping>
+    
     <servlet-mapping>
         <servlet-name>Esquemas</servlet-name>
         <url-pattern>/Esquemas</url-pattern>
@@ -340,18 +326,6 @@
     <servlet-mapping>
         <servlet-name>BorrarEsquemas</servlet-name>
         <url-pattern>/BorrarEsquemas</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Columna</servlet-name>
-        <url-pattern>/Columna</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>VerTablas</servlet-name>
-        <url-pattern>/VerTablas</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Irtablas</servlet-name>
-        <url-pattern>/Irtablas</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>EditarTablas</servlet-name>

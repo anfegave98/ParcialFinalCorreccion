@@ -3,8 +3,8 @@
     Created on : 16/10/2017, 04:01:13 PM
     Author     : User
 --%>
-<%@page import="model.Columna"%>
-<%@page import="model.Columna"%>
+<%@page import="Model.Columna"%>
+<%@page import="Model.Columna"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

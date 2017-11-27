@@ -1,6 +1,6 @@
 
 
-<%@page import="model.ModeloNavegacionn"%>
+<%@page import="Model.ModeloNavegacionn"%>
 <%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

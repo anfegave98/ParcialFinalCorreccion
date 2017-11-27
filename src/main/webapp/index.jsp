@@ -21,7 +21,7 @@
     <body background="fondo.jpg">
 
         <div class="container">
-            <h1 class="col-md-4">QUIZ</h1>
+            <h1 class="col-md-4">METAMODEL S.A.</h1>
             <div class="span12">&nbsp;</div>
             <div class="span12">&nbsp;</div>
             <div class="span12">&nbsp;</div>

@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
-   <servlet>
+    <servlet>
         <servlet-name>Esquemas</servlet-name>
-        <servlet-class>controller.Esquemas</servlet-class>
+        <servlet-class>Controller.Esquemas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Tablas</servlet-name>
-        <servlet-class>controller.Tablas</servlet-class>
+        <servlet-class>Controller.Tablas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditarEsquemas</servlet-name>
-        <servlet-class>controller.EditarEsquemas</servlet-class>
+        <servlet-class>Controller.EditarEsquemas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>BorrarEsquemas</servlet-name>
-        <servlet-class>controller.BorrarEsquemas</servlet-class>
+        <servlet-class>Controller.BorrarEsquemas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Columna</servlet-name>
-        <servlet-class>controller.Columna</servlet-class>
+        <servlet-class>Controller.Columna</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>VerTablas</servlet-name>
-        <servlet-class>controller.VerTablas</servlet-class>
+        <servlet-class>Controller.VerTablas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Irtablas</servlet-name>
-        <servlet-class>controller.Irtablas</servlet-class>
+        <servlet-class>Controller.Irtablas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditarTablas</servlet-name>
-        <servlet-class>controller.EditarTablas</servlet-class>
+        <servlet-class>Controller.EditarTablas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>BorrarTablas</servlet-name>
-        <servlet-class>controller.BorrarTablas</servlet-class>
+        <servlet-class>Controller.BorrarTablas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Columnas</servlet-name>
-        <servlet-class>controller.Columnas</servlet-class>
+        <servlet-class>Controller.Columnas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>EditarColumnas</servlet-name>
-        <servlet-class>controller.EditarColumnas</servlet-class>
+        <servlet-class>Controller.EditarColumnas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>BorrarColumnas</servlet-name>
-        <servlet-class>controller.BorrarColumnas</servlet-class>
+        <servlet-class>Controller.BorrarColumnas</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ModeloNavegacion</servlet-name>
-        <servlet-class>controller.ModeloNavegacion</servlet-class>
+        <servlet-class>Controller.ModeloNavegacion</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>ContextoNavegacion</servlet-name>
-        <servlet-class>controller.ContextoNavegacion</servlet-class>
+        <servlet-class>Controller.ContextoNavegacion</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>UnidadAbstractaInformacion</servlet-name>
-        <servlet-class>controller.UnidadAbstractaInformacion</servlet-class>
+        <servlet-class>Controller.UnidadAbstractaInformacion</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Punto4</servlet-name>
-        <servlet-class>controller.Punto4</servlet-class>
+        <servlet-class>Controller.Punto4</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ClienteController</servlet-name>
@@ -131,23 +131,6 @@
     <servlet-mapping>
         <servlet-name>Punto4</servlet-name>
         <url-pattern>/Punto4</url-pattern>
-    </servlet-mapping>
-    <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
-    </welcome-file-list>
-    <servlet>
-        <description/>
-        <display-name>UserController</display-name>
-        <servlet-name>UserController</servlet-name>
-        <servlet-class>controller.UserController</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>ClienteController</servlet-name>
-        <servlet-class>controller.ClienteController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>UserController</servlet-name>
-        <url-pattern>/UserController</url-pattern>
     </servlet-mapping>
     
     

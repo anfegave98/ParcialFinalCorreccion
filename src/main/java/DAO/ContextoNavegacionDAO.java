@@ -33,7 +33,7 @@ public class ContextoNavegacionDAO {
     public boolean addContexto(ContextoNavegacionn contexto) throws SQLException, URISyntaxException {
           boolean result = false;
         Connection connection = DbUtil.getConnection();
-        String query = "insert into contextonavegacion (contextonavegacion.link,contextonavegacion.id_modelo) values (?, ? );";
+        String query = "insert into contextonavegacion (link,id_modelo) values (?, ? );";
         PreparedStatement preparedStmt = null;
         try {
             preparedStmt = connection.prepareStatement(query);

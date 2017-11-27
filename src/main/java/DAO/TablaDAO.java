@@ -22,7 +22,7 @@ public class TablaDAO {
     public boolean addTabla(Tabla tabla) throws SQLException, URISyntaxException {
         boolean result = false;
         Connection connection = DbUtil.getConnection();
-        String query = "insert into tabla (tabla.nombre_tabla,tabla.id_esquema) values (?, ? );";
+        String query = "insert into tabla (nombre_tabla,id_esquema) values (?, ? );";
         PreparedStatement preparedStmt = null;
         try {
             preparedStmt = connection.prepareStatement(query);

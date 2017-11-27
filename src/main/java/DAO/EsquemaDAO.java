@@ -22,7 +22,7 @@ public class EsquemaDAO {
     public boolean addEsquema(Esquema esquema) throws SQLException, URISyntaxException {
         boolean result = false;
         Connection connection = DbUtil.getConnection();
-        String query = "insert into esquema (esquema.nombre_esquema) values (?);";
+        String query = "insert into esquema (nombre_esquema) values (?);";
         PreparedStatement preparedStmt = null;
         try {
             preparedStmt = connection.prepareStatement(query);

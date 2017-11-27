@@ -32,7 +32,7 @@ public class ModeloNavegacionDAO {
     public boolean addModelo(ModeloNavegacionn modelo) throws SQLException, URISyntaxException {
           boolean result = false;
         Connection connection = DbUtil.getConnection();
-        String query = "insert into modelonavegacion (modelonavegacion.nombre) values (?);";
+        String query = "insert into modelonavegacion (nombre) values (?);";
         PreparedStatement preparedStmt = null;
         try {
             preparedStmt = connection.prepareStatement(query);

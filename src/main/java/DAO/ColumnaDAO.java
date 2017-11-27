@@ -22,7 +22,7 @@ public class ColumnaDAO {
     public boolean addColumna(Columna columna) throws SQLException, URISyntaxException {
        boolean result = false;
         Connection connection = DbUtil.getConnection();
-        String query = "insert into columna (columna.nombre_columna,columna.data_type,columna.id_tabla) values (?, ?, ?);";
+        String query = "insert into columna (nombre_columna,data_type,id_tabla) values (?, ?, ?);";
         PreparedStatement preparedStmt = null;
         try {
             preparedStmt = connection.prepareStatement(query);

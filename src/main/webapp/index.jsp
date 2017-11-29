@@ -21,7 +21,7 @@
     <body background="fondo.jpg">
 
         <div class="container">
-            <h1 class="col-md-4">METAMODEL S.A.</h1>
+            <h1 class="col-md-4">Colmenas</h1>
             <div class="span12">&nbsp;</div>
             <div class="span12">&nbsp;</div>
             <div class="span12">&nbsp;</div>
@@ -30,35 +30,10 @@
             <div class="span12">&nbsp;</div>
 
             <div class="col-md-4">
-                <a class href="Esquemas">
-                    <button type="button" class="btn btn-primary btn-lg">ESQUEMA</button>
+                <a class href="Reportee">
+                    <button type="button" class="btn btn-primary btn-lg">Generar Reporte</button>
                 </a>
-                <a  href="Tablas">
-                    <button type="button" class="btn btn-success btn-lg">TABLA</button>
-                </a>
-                <a  href="Columnas">
-                    <button   type="button" class="btn btn-danger btn-lg">COLUMNA</button>  
-                </a>
-                <br>
-                <br> 
-                <a  href="ModeloNavegacion">
-                    <button   type="button" class="btn btn-primary btn-lg">MODELO NAVEGACION</button>  
-                </a>
-                <br>
-                <br> 
-                <a  href="ContextoNavegacion">
-                    <button   type="button" class="btn btn-success btn-lg">CONTEXTO NAVEGACION</button>  
-                </a>
-                <br>
-                <br> 
-                <a  href="UnidadAbstractaInformacion">
-                    <button   type="button" class="btn btn-danger btn-lg">UNIDAD ABSTRACTA INFORMACION</button>  
-                </a>
-                <br>
-                <br> 
-                <a  href="Puntos4.jsp">
-                    <button   type="button" class="btn btn-warning btn-lg">CONSULTA PUNTO 4</button>  
-                </a>
+                
             </div>
         </div>
     </body>

@@ -367,7 +367,7 @@
     
     <servlet>
         <servlet-name>Reportee</servlet-name>
-        <servlet-class>Controller.Reprotee</servlet-class>
+        <servlet-class>Controller.Reportee</servlet-class>
     </servlet>
      <servlet-mapping>
         <servlet-name>Reportee</servlet-name>

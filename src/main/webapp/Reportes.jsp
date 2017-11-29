@@ -4,7 +4,7 @@
     Author     : User
 --%>
 
-<%@page import="Model.Esquema"%>
+<%@page import="Model.Reporte"%>
 <%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

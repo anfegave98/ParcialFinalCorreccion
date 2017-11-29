@@ -23,7 +23,7 @@
         <div class="container">
         <div class="row">  
             <div class="col-sm-12">
-                <table class="table table-inverse">
+                <table class="table table-hover table-condensed table-bordered">
                     <tr>
                         <td>Id Colmena</td>
                         <td>Ubicacion</td>

@@ -34,8 +34,8 @@
                     
                     <% 
                         
-                        if (request.getAttribute("listaReporte") != null) {
-                        ArrayList<Reporte> list = (ArrayList<Reporte>) request.getAttribute("listaReporte");
+                        if (request.getAttribute(s) != null) {
+                        ArrayList<Reporte> list = (ArrayList<Reporte>) request.getAttribute(s);
                         if(list!= null)
                             for (Reporte a : list) {
 

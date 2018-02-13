@@ -22,6 +22,13 @@
             <artifactId>glassfish-embedded-web</artifactId>
             <version>3.1.1</version>
         </dependency>	
+<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.2</version>
+        </dependency>
+
         
 		<!-- JDBC Driver -->
 		<dependency>
@@ -80,7 +87,8 @@
             <url>http://download.java.net/maven/glassfish</url>
         </pluginRepository>
     </pluginRepositories>
-    
+ 
+
 
    
 </project>

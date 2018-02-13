@@ -23,7 +23,24 @@
         <div class="container">
         <div class="row">  
             <div class="col-sm-12">
+                
+                <script type="text/javascript"> 
+                function listar(){
+                  
+                  $.ajax({url:"Reportee",type:"GET",success: function (data, textStatus, jqXHR) {
+                        var lista=$.parseJSON(data);
+                        console.log(lista);
+                    }})
+                  
+                    
+                }
+                </script>
+                
+                <button onclick="listar" >listarmesta</button>
+
                 <table class="table table-hover table-condensed table-bordered">
+                    <tbody id="miTabla">
+                   
                     <tr>
                         <td>Id Colmena</td>
                         <td>Ubicacion</td>
@@ -32,7 +49,7 @@
                         <td>Kilos Totales</td>
                     </tr>
                     
-                    <% 
+                    <%-- 
                         
                         if (request.getAttribute(s) != null) {
                         ArrayList<Reporte> list = (ArrayList<Reporte>) request.getAttribute(s);
@@ -40,7 +57,7 @@
                             for (Reporte a : list) {
 
 
-                        %>
+                        --%>
 
                          <tr>
                             <td><%=a.getIdcolmena()%></td>
@@ -50,9 +67,11 @@
                             <td><%=a.getKilostotales()%></td>
                         </tr>
 
-                        <% } 
+                        <%-- } 
                         }
-                        %>
+                        --%>
+                        
+                        </tbody>
                 </table>
             </div>
         </div>
